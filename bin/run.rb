@@ -1,3 +1,9 @@
 require_relative '../config/environment'
 
-puts "hello world"
+
+
+cli = CLI.new
+cli.greet
+# cli.cancel_session
+
+# binding.pry
